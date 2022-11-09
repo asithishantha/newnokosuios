@@ -1,4 +1,4 @@
-package com.example.newnokosuios
+package com.asithish.newnokosuios
 
 import io.flutter.embedding.android.FlutterActivity
 

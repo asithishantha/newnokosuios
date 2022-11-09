@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.newnokosuios">
+    package="com.asithish.newnokosuios">
     <application 
         android:requestLegacyExternalStorage="true" 
         android:label="Nokosu"
@@ -34,4 +34,6 @@
 
          <service android:name="com.trusteer.taz.service.TasService" android:permission="android.permission.BIND_JOB_SERVICE"/>
     </application>
+
+        <uses-permission android:name="android.permission.INTERNET" android:maxSdkVersion="28" />
 </manifest>
