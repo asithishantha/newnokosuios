@@ -176,8 +176,6 @@ class _Uploader extends State<Uploader> {
                                         alignment: Alignment.center,
                                         onPressed: () => getImage(
                                             source: ImageSource.gallery),
-                                        // child: const Text('Capture Image',
-                                        //     style: TextStyle(fontSize: 18))
                                       ),
                                       const Text("Select from gallery",
                                           style: TextStyle(
@@ -193,9 +191,6 @@ class _Uploader extends State<Uploader> {
                     Padding(
                       padding: EdgeInsets.fromLTRB(0, 30, 0, 0),
                       child: Container(
-                        // margin: EdgeInsets.only(
-                        //     left: 0.0, top: 60.0, right: 0.0, bottom: 0.0),
-
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,

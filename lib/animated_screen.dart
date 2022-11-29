@@ -1,7 +1,9 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
-import 'package:image_picker/image_picker.dart';
 import 'package:liquid_swipe/liquid_swipe.dart';
 import 'package:newnokosuios/image_picker.dart';
+// ignore: unused_import
 import 'package:provider/provider.dart';
 
 class AnimatedScreen extends StatefulWidget {

@@ -1,6 +1,8 @@
+// ignore: invalid_language_version_override
 import 'package:flutter/material.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:newnokosuios/animated_screen.dart';
+// ignore: unused_import
 import 'package:newnokosuios/image_picker.dart';
 
 // @dart=2.9

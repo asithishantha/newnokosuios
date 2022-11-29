@@ -316,7 +316,6 @@ class _CardDesignState extends State<CardDesign> {
 
   Future<void> _captureSocialPng1() {
     List<String> imagePaths = [];
-    final RenderBox box = context.findRenderObject() as RenderBox;
     return new Future.delayed(const Duration(milliseconds: 20), () async {
       RenderRepaintBoundary? boundary = previewContainer.currentContext!
           .findRenderObject() as RenderRepaintBoundary?;
@@ -329,12 +328,12 @@ class _CardDesignState extends State<CardDesign> {
           await image.toByteData(format: ui.ImageByteFormat.png);
       Uint8List pngBytes = byteData!.buffer.asUint8List();
 
-      File imgFile = new File('$directory/nokosu_${DateTime.now()}.png');
+      File imgFile = new File('$directory/nokosu-${DateTime.now()}.png');
 
       imagePaths.add(imgFile.path);
       imgFile.writeAsBytes(pngBytes).then((value) async {
         await ImageGallerySaver.saveImage(Uint8List.fromList(pngBytes),
-            quality: 1000, name: 'nokosu-${DateTime.now()}.png');
+            quality: 100, name: 'nokosu-${DateTime.now()}.png');
       }).catchError((onError) {
         print(onError);
       }).whenComplete(() => showAlertDialog(context));
