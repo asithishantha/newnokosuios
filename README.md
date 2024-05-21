@@ -1,4 +1,4 @@
-![Screenshot 2024-05-21 at 20 45 41](https://github.com/asithishantha/newnokosuios/assets/42315166/50dfca15-fee8-4493-88e9-7564f4680a4a)# 公立はこだて未来大学プロジェクト
+# 公立はこだて未来大学プロジェクト
 
 # NOKOSU - アイデアのブレインストーミングを支援するアプリ
 
